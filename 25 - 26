@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>25-26</title>
+<style>
+body{
+	background-image: -moz-linear-gradient(-45deg, #800080, #FF8C00);
+
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.00, #800080), color-stop(1.0, #FF8C00));
+color:#C0C0C0;
+}
+	tr:nth-child(3n+1){
+		background-color: red;
+	}
+	td:last-child{
+background-color:blue;
+font-weight:bold;}
+	table{
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+</style>
+</head>
+<body>
+	<table border="1">
+		<tr>
+		<td>Прізвище учна</td><td>Програмування</td><td>Інформатика</td><td>Середній бал</td></tr>
+<tr>
+		<td>Іванов</td><td>11</td><td>11</td><td>11</td>
+</tr>
+		<tr><td>Петров</td><td>10</td><td>11</td><td>10.9</td></tr>
+
+		<tr><td>Зубенко</td><td>9</td><td>11</td><td>10.2</td></tr>
+
+		<tr><td>Кожедуб</td><td>9</td><td>10</td><td>9.8</td></tr>
+
+		<tr><td>Лебедев</td><td>8</td><td>10</td><td>9</td></tr>
+
+		<tr><td>Хлєборобов</td><td>7</td><td>6</td><td>7</td></tr>
+
+		<tr><td>Лобач</td><td>7</td><td>6</td><td>6.5</td></tr>
+
+		<tr><td>Пилипенко</td><td>4</td></td><td>3.9</td><td>3.9</td></tr>
+
+		<tr><td>Балабей</td><td>3</td><td>5</td><td>3</td></tr>
+
+		<tr><td>Цранко</td><td>3</td><td>7</td><td>6.5</td></tr>
+
+		<tr><td>Фипенко</td><td>2</td><td>3</td><td>3.9</td></tr>
+
+		<tr><td>Бала</td><td>2</td><td>3</td><td>3</td></tr>
+
+	</table>
+</body>
+</html>
