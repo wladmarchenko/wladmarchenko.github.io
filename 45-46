@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>45-46 Vlad</title>
+	<style type="text/css">
+		body{background-image: -moz-linear-gradient(-45deg, #8B008B, #FFD700);
+
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0.00, #8B008B), color-stop(1.0, #FFD700));
+
+background-color: #DDDDDD;
+
+padding: 10px;
+
+font-family: Verdana, Geneva, sans-serif;
+
+font-size: 12pt;
+
+color: #FFF8DC;
+
+text-align: center;}
+	</style>
+</head>
+<body>
+	
+	<form name="test" align="center">
+		
+		<p>1. Який зараз рік?
+			<br><input type="text" name="vopr1"></p>
+
+		<p>2. Хто вчитель з програмування?
+			<br><input type="text" name="vopr2" placeholder="Прізвище"></p>
+
+		<p>3. Що більше за 10?
+			<br><input type="radio" name="vopr3">2
+			<input type="radio" name="vopr3">10
+			<input type="radio" name="vopr3">12</p>
+
+		<p>4. Вікно це?
+			<br><input type="radio" name="vopr4">Water
+			<input type="radio" name="vopr4">Windows
+			<input type="radio" name="vopr4">Windrose</p>
+
+		<p>5. Більше ста та меньше 200?
+			<br><input type="checkbox" name="vopr5">199
+			<input type="checkbox" name="vopr5">100
+			<input type="checkbox" name="vopr5">150</p>
+
+		<p>6. Кольори прапору України?
+			<br><input type="checkbox" name="vopr6">Синій
+			<input type="checkbox" name="vopr6">Жовтий
+			<input type="checkbox" name="vopr6">Білий</p>
+
+		<p>7. Який метод виводить діалогове вікно з полем?
+			<br><select name="vopr7"> 
+				<option value="1">alert</option>
+				<option value="2">column</option>
+				<option value="3">lore ipsum</option>
+			</select></p>
+
+		<p>8. Скільки секунд в хвилині?
+			<br><select name="vopr8"> 
+				<option value="1">100</option>
+				<option value="2">1</option>
+				<option value="3">60</option>
+			</select></p>
+			<input type="button" value="Перевірити" onclick="check()">
+		<p id="out">Кількість правильних відповідей</p>
+	</form>
+
+	<script type="text/javascript">
+function check() {
+var i=0;
+if(document.test.vopr1.value=="2019") i++;
+if(document.test.vopr2.value=="Лисенко") i++;
+if(document.test.vopr3[2].checked) i++;
+if(document.test.vopr4[1].checked) i++;
+if(!document.test.vopr5[1].checked && document.test. vopr5[2].checked && document.test.vopr5[0].checked) i++;
+if(!document.test.vopr6[2].checked && document.test. vopr6[0].checked && document.test.vopr6[1].checked) i++;
+if(document.test.vopr7.value=="1") i++;
+if(document.test.vopr8.value=="3") i++;
+
+var p = document.getElementById('out')
+p.innerHTML = "Правильних відповідей -" +i;
+}
+</script>
+</body>
+</html>
