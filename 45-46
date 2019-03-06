@@ -37,7 +37,7 @@ text-align: center;}
 
 		<p>4. Вікно це?
 			<br><input type="radio" name="vopr4">Water
-			<input type="radio" name="vopr4">Windows
+			<input type="radio" name="vopr4">Window
 			<input type="radio" name="vopr4">Windrose</p>
 
 		<p>5. Більше ста та меньше 200?
