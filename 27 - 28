@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>27-28</title>
+	<style>
+	*{padding: 0;	margin:0;}
+	h1{
+		padding: 22px;
+		font-size: 30px;
+	}
+	.header{
+border-top: 7px solid #FF0000;
+background-color: #1C1C1C;
+padding: 10px;
+font-family: arial;
+font-size: 12pt;
+color: #D3D3D3;
+height: 130px;
+text-align: center;
+		}
+
+		.menu{
+			display: flex;
+			justify-content: space-between;
+		}
+		.menn{
+			background-color: #2E2E2E;
+			height: 40px;
+			width:200px;
+			padding-top: 4px;
+		}
+		.menn:hover{
+			background-color: #151515;
+			border-bottom:1px solid #FF0000;
+		}
+		.vce{
+			display: flex;
+			border-top: 2px solid #FF0000;
+		flex-wrap: nowrap;
+
+		}
+
+
+		.vcee{
+			width: 60%;
+		background-color: #151515;
+		color: #D3D3D3;
+		font-family: arial;
+		font-size: 16px;
+		border-right:2px solid #FF0000;
+		padding: 10px;  
+		overflow-wrap: hidden;
+		}
+		.vee{
+			width: 40%;
+		background-color: #151515;padding: 10px; 
+		}
+		img{
+   max-width: 100%;
+   height: auto;
+   width: auto\9;
+   flex-wrap: nowrap;
+}
+		}
+		h2{color: #D3D3D3;
+		font-family: arial;
+	padding: 22px;}
+	.iim{
+		width: 50px;
+		height: 29px;
+	}
+	.conteiner{border-top: 2px solid #FF0000;
+background-color: #1C1C1C;
+padding: 10px;
+font-family: arial;
+font-size: 12pt;
+color: #D3D3D3;
+text-align: right;}
+	</style>
+</head>
+<body>
+<header>
+	<div class="header">
+		<h1>Panther <img src="https://cdn2.sportngin.com/attachments/team/1903/9122/WSPanther_print.png" class="iim"></h1> 
+		<div class="menu">
+			<div class="menn">Home</div>
+			<div class="menn">Get started</div>
+			<div class="menn">Gear</div>
+			<div class="menn">Forum</div>
+			<div class="menn">Photos</div>
+		</div>
+	</div>
+</header>
+
+<div class="vce">
+	<div class="vcee">
+		<h2 align="center">Welcome</h2>
+		<p>Пантера (Panthera) — рід ссавців родини котових (Felidae), який містить чотири сучасних види: тигр (Panthera tigris), лев (Panthera leo), ягуар (Panthera onca) і пантера плямиста, або пардус (Panthera pardus). Рід охоплює приблизно половину обсягу підродини пантерових (Pantherinae) і є типовим родом цієї підродини.</p>
+<p>Як і щодо таксономії більшої частини родини котячих, щодо таксономії роду пантер велося багато дебатів, а його класифікація кілька разів переглядалася. Рід ймовірно походить від вимерлого кота Viretailurus schaubi або Panthera schaubi, який інколи також розцінюється як ранній член роду пум (Puma).</p>
+	</div>
+
+	<div class="vee">
+		<h2 align="center">Favorite Photos</h2>
+<img src="https://lh3.googleusercontent.com/VHxDYOxRt5oYJzzoQ0VL6ci4FgxL2PAWoj4oQhIMtIMEmmrbrJnw9SZ44oLlbqT8JkBgOQmBwEu1iEN2O94WuAs=s200-c">
+<img src="https://cleanmalaysia.com/wp-content/uploads/2017/06/Black-panther-200x200.jpg">
+<img src="https://imgs.photo4me.com/20630/632674_t.jpeg">
+<img src="https://biodiversitywarriors.org/gambar/artikel/thumb/thumb_panther_8996667703.jpg">
+	</div>
+</div>
+
+<div class="conteiner">
+	Direct by - Vlad Marchenko.
+</div>
+</body>
+</html>
